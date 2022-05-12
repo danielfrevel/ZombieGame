@@ -13,7 +13,5 @@ namespace ZombieGame
 
         void Notify();
 
-        void SpawnZombie(IZombie zombie);
-
     }
 }

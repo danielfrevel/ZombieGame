@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ZombieGame.Zombie" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="3.25" Y="1.5" Width="1.5" />
+  <Class Name="ZombieGame.Zombie" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Zombie\Zombie.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ZombieGame.Map" Collapsed="true" BaseTypeListCollapsed="true">
+  <Class Name="ZombieGame.Map" BaseTypeListCollapsed="true">
     <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAABASAAAAAAAGAA=</HashCode>
@@ -16,7 +16,7 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ZombieGame.Player" Collapsed="true" BaseTypeListCollapsed="true">
+  <Class Name="ZombieGame.Player" BaseTypeListCollapsed="true">
     <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -24,15 +24,15 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="ZombieGame.IZombie" Collapsed="true">
-    <Position X="5" Y="2.75" Width="1.5" />
+  <Interface Name="ZombieGame.IZombie">
+    <Position X="5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Zombie\IZombie.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="ZombieGame.IObserver" Collapsed="true">
-    <Position X="3.25" Y="2.75" Width="1.5" />
+  <Interface Name="ZombieGame.IObserver">
+    <Position X="3.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IObserver.cs</FileName>

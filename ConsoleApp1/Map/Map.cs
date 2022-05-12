@@ -8,7 +8,7 @@ namespace ZombieGame
     public class Map : IMap, IObservable
     {
         private List<IObserver> Observers = new List<IObserver>();
-        private List<IZombie> Zombies = new List<IZombie>();
+        public List<IZombie> Zombies = new List<IZombie>();
         
         public void SpawnZombie(IZombie zombie)
         {

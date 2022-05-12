@@ -11,3 +11,9 @@ for(int i = 0; i < numberOfZombies; i++)
     map.SpawnZombie(new Zombie());
 }
 
+foreach (var zomb in map.Zombies)
+{
+    Console.WriteLine(zomb.ToString());
+}
+
+

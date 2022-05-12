@@ -7,5 +7,6 @@ namespace ZombieGame
 {
     public interface IMap : IObservable
     {
+        void SpawnZombie(IZombie zombie);
     }
 }
